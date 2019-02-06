@@ -39,6 +39,7 @@ public class Application extends Frame implements WindowListener {
 
 	@Override
 	public void windowClosing(WindowEvent e) {
+		System.out.println("je dab sur les rageux");
 		System.exit(0);
 		
 	}
