@@ -20,7 +20,7 @@ public class Application extends Frame implements WindowListener {
 		vue.addActionListener(ctrl);
 		
 		this.setLocationRelativeTo(null);
-		
+		this.setTitle("Daber, c'est la vie");
 		this.addWindowListener(this);
 		this.setTitle("tutoriel git");
 		this.add(vue);
